@@ -4,13 +4,13 @@ function HeroBottom() {
   return (
     <div className=''>
       <div className="container">
-        <div className='flex py-4 justify-between md:flex-row flex-col gap-4 items-center'>
+        <div className='flex py-4 justify-between md:flex-row flex-col gap-8 md:gap-4 items-center'>
           {/* ==== left side - Counters ==== */}
           <div className="flex gap-[80px]">
             <div className="">
               <div>
-                <h3 className="text-gray-600 font-semibold text-[24px]">We Are Experts in Lead Generation And Data Entry Services</h3>
-                <h3 className="text-primary-color font-semibold text-[22px]">With 4 Years Of Experience.</h3>
+                <h3 className="text-gray-600 font-semibold text-[20px] mb-3 md:mb-0 md:text-[24px]">We Are Experts in Lead Generation And Data Entry Services</h3>
+                <h3 className="text-primary-color font-semibold text-[18px] md:text-[22px]">With 4 Years Of Experience.</h3>
               </div>
 
             </div>

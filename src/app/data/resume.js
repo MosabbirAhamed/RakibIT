@@ -1,71 +1,135 @@
 export const RESUME = {
-    title: "Resume",
-    subtitle: "My",
-    typeWriter: ["Education", "Experience"],
-    education: [
+    title: "Our Services",
+    subtitle: "Lets Talk About",
+    typeWriter: ["Our Services",],
+    types: ['All', 'Website', 'Apps', 'Markting'],
+    projects: [
         {
-            year: "2018 - 2022",
-            institution: "Naogaon Polytechnic Institute",
-            subject: "Diploma in Electrical Engineering",
-            description: "I complete Diploma in Electrical Engineering, in this institute",
+            title: 'B2b Lead Generation',
+            description:
+                'Our expertise in B2B lead generation empowers your business to thrive. We identify and deliver high quality leads, driving your success to new heights. Trust the best for unrivaled results.',
+            video: null,
+            images: '/Asset/portfolio/services1.png',
+            link: 'https://future-of-furniture.netlify.app/',
+            type: 'Website',
+            subservice: [
+                'Copy paste',
+                'CRM Data Entry',
+                'Data Enrichment',
+                'Data Entry for All Industry',
+                'Data Extraction',
+                'Data Mining',
+                'Document Data Entry',
+                'E-commerce Data Entry',
+                'Excel/Spreadsheet Data Entry',
+            ],
+            source: 'https://github.com/MosabbirAhamed/Future-Of-Furniture',
+        },
+
+        {
+            title: 'Email List Building',
+            description:
+                'Unlock the potential of your business with our proficiency in email list building. We specialize in identifying and curating high-quality email lists tailored to your specific needs. Elevate your success by trusting the best to deliver unparalleled results in expanding your email outreach and engagement.',
+            video: null,
+            images: '/Asset/portfolio/services2.png',
+            link: 'https://netfilx-beta.netlify.app/',
+            source: 'https://github.com/MosabbirAhamed/Little-Netflix',
+            type: 'Markting',
+            subservice: [
+                'Copy paste',
+                'CRM Data Entry',
+                'Data Enrichment',
+                'Data Entry for All Industry',
+                'Data Extraction',
+                'Data Mining',
+                'Document Data Entry',
+                'E-commerce Data Entry',
+                'Excel/Spreadsheet Data Entry',
+            ],
         },
         {
-            year: "2016 - 2018",
-            institution: "Shibpur High School",
-            subject: "SSC in Humanities",
-            description: "I studied in this school for many years and i done my SSC exam in there.",
-        }
+            title: 'Direct Mobile Number Finding',
+            description:
+                'Empower your business with our specialized skills in direct mobile number finding. We excel in identifying and providing high-quality direct mobile numbers, enabling you to enhance your outreach and communication strategies. Trust us to deliver exceptional results, taking your business connectivity to new heights.',
+            video: null,
+            images: '/Asset/portfolio/services3.png',
+            link: 'https://zomato-clone-by-mosabbir.netlify.app/',
+            source: 'https://github.com/MosabbirAhamed/Zomato-Clone',
+            type: 'Website',
+            subservice: [
+                'Copy paste',
+                'CRM Data Entry',
+                'Data Enrichment',
+                'Data Entry for All Industry',
+                'Data Extraction',
+                'Data Mining',
+                'Document Data Entry',
+                'E-commerce Data Entry',
+                'Excel/Spreadsheet Data Entry',
+            ],
+        },
+        {
+            title: 'Web Research',
+            description:
+                'Leverage our expertise in web research to gather valuable insights for your business. Our skilled team is adept at conducting thorough and precise web research, providing you with the information needed to make informed decisions. Trust us to navigate the vast online landscape and deliver comprehensive results tailored to your specific requirements.',
+            video: null,
+            images: '/Asset/portfolio/services4.png',
+            link: 'https://mosabbirahamed.github.io/RESTAURANT/',
+            source: 'https://github.com/MosabbirAhamed/RESTAURANT',
+            type: 'Markting',
+            subservice: [
+                'Copy paste',
+                'CRM Data Entry',
+                'Data Enrichment',
+                'Data Entry for All Industry',
+                'Data Extraction',
+                'Data Mining',
+                'Document Data Entry',
+                'E-commerce Data Entry',
+                'Excel/Spreadsheet Data Entry',
+            ],
+        },
+        {
+            title: 'All Kinds of Data Entry',
+            description:
+                'Experience the convenience of comprehensive data entry services with our expert team. We specialize in handling all types of data entry tasks, providing accuracy and efficiency across various categories. Trust us to manage your diverse data entry needs, delivering reliable and high-quality results that cater to every aspect of your business.',
+            video: null,
+            images: '/Asset/portfolio/services5.png',
+            link: 'https://mosabbirahamed.github.io/TODO/',
+            source: 'https://github.com/MosabbirAhamed/TODO',
+            type: 'Website',
+            subservice: [
+                'Copy paste',
+                'CRM Data Entry',
+                'Data Enrichment',
+                'Data Entry for All Industry',
+                'Data Extraction',
+                'Data Mining',
+                'Document Data Entry',
+                'E-commerce Data Entry',
+                'Excel/Spreadsheet Data Entry',
+            ],
+        },
+        {
+            title: 'Product Upload and Listing',
+            description:
+                'Optimize your online store with our proficient product upload and listing services. Our team excels in the seamless uploading and listing of products, ensuring a polished and organized presentation. Trust us to handle the intricacies of product management, enhancing visibility and driving sales for your e-commerce business.',
+            video: null,
+            images: '/Asset/portfolio/services6.png',
+            link: 'https://mosabbirahamed.github.io/Temperature-Converter/',
+            source: 'https://github.com/MosabbirAhamed/Temperature-Converter',
+            type: 'Apps',
+            subservice: [
+                'Copy paste',
+                'CRM Data Entry',
+                'Data Enrichment',
+                'Data Entry for All Industry',
+                'Data Extraction',
+                'Data Mining',
+                'Document Data Entry',
+                'E-commerce Data Entry',
+                'Excel/Spreadsheet Data Entry',
+            ],
+        },
     ],
-    experience: [
-        {
-            year: "2019 - Present",
-            company: "Fronted Web Developer",
-            role: "",
-            description: "I am learning frontend development for last 2 years.",
-        },
-        {
-            year: "2020 - Present",
-            company: "Web Developer",
-            role: "",
-            description: "I make website for fun and i build them by my brain cell.",
-        }
-    ],
-    skills: [
-        {
-            name: "Html",
-            parentage: 95
-        },
-        {
-            name: "Css",
-            parentage: 85
-        },
-        {
-            name: "JavaScript",
-            parentage: 90
-        },
-        {
-            name: "React JS",
-            parentage: 90
-        },
-        {
-            name: "Next JS",
-            parentage: 85
-        },
-        {
-            name: "Firebase",
-            parentage: 80
-        },
-        {
-            name: "Tailwind Css",
-            parentage: 85
-        },
-        {
-            name: "Bootstrap",
-            parentage: 90
-        },
-        {
-            name: "JQuery",
-            parentage: 90
-        }
-    ]
 }

@@ -1,9 +1,13 @@
 import { RESUME } from "../../../data";
-import { ResumeCard, SectionTitle, SkillProgress } from "../../elements";
-import { MdCastForEducation, MdWorkOutline } from "react-icons/md";
+import { SectionTitle } from "../../elements";
+import { useState } from "react";
+import ServiceTypes from "../../elements/ServiceTypes";
+import ServicesProjects from "../../elements/ServicesProjects";
+
 
 function Resume() {
-  const { title, subtitle, typeWriter, education, experience, skills } = RESUME;
+  const { title, subtitle, typeWriter, types, projects } = RESUME;
+  const [selectedType, setSelectedType] = useState("All");
 
   return (
     <section name="Resume" className="element">
@@ -16,43 +20,20 @@ function Resume() {
           typeWriter={typeWriter}
         />
         <div className="mt-10">
-          <div className="flex flex-wrap justify-between gap-5">
-            {/* ==== Education ==== */}
-            <div className="md:w-[45%] Resume__Items">
-              {education.map((item, index) => (
-                <ResumeCard
-                  key={index}
-                  title={item.institution}
-                  year={item.year}
-                  subtitle={item.subject}
-                  description={item.description}
-                  Icon={MdCastForEducation}
-                  education
-                />
-              ))}
-            </div>
-            {/* ==== Experience ==== */}
-            <div className="md:w-[45%] mt-10 md:mt-0 Resume__Items">
-              {experience.map((item, index) => (
-                <ResumeCard
-                  key={index}
-                  title={item.company}
-                  year={item.year}
-                  subtitle={item.role}
-                  description={item.description}
-                  Icon={MdWorkOutline}
-                  experience
-                />
-              ))}
-            </div>
-          </div>
-        </div>
-        {/* ==== Skills ==== */}
-        <div className="mt-14">
-          <div className="flex flex-wrap justify-between">
-            {skills.map((skill, index) => (
-              <SkillProgress key={index} {...skill} />
-            ))}
+          {/* ==== Project Types ==== */}
+          <ServiceTypes
+            types={types}
+            onChange={setSelectedType}
+            selected={selectedType}
+          />
+          {/* ==== Projects ==== */}
+          <ServicesProjects projects={projects} type={selectedType} />
+          {/* ==== Github ==== */}
+          <div className="block w-fit mx-auto mt-10">
+            <a href="https://mosabbir-ahamed.netlify.app/" className="px-6 py-2 text-white font-semibold rounded-[5px] cursor-pointer bg-primary-color border border-primary-color hover:text-primary-color
+                              hover:bg-white  transition-all duration-300 ease-in-out ">
+              Our Services
+            </a>
           </div>
         </div>
       </div>

@@ -5,7 +5,7 @@ import { TypeWriter } from "../../elements";
 function Hero() {
     const { name, title, subtitle, typeWriter } = HERO
     return (
-        <section className="hero_bg  h-[80vh]" name="Hero">
+        <section className="hero_bg h-[50vh] md:h-[80vh]" name="Hero">
 
 
             <div className=" w-full h-full pt-[100px]">

@@ -21,7 +21,7 @@ const PortfolioModal = ({ onClose, popupData }) => {
 
   return (
     <>
-      <div className="relative h-full w-full flex justify-center items-center bg-black flex-col rounded-md p-3">
+      <div className="relative h-full w-full flex justify-center items-center bg-white flex-col rounded-md p-3">
         {/* ==== Close Modal ==== */}
         <button className="absolute right-5 top-5 text-red-500 text-3xl z-10 outline-none" onClick={onClose}>
           <AiOutlineCloseCircle />
@@ -29,10 +29,10 @@ const PortfolioModal = ({ onClose, popupData }) => {
         {/* ==== Project Details ==== */}
         <div className="w-full max-h-[698px] h-[90vh] p-7 overflow-y-scroll no-scrollbar">
           <div className="">
-            <h1 className="text-lg md:text-3xl text-white font-Montserrat font-semibold">
+            <h1 className="text-lg md:text-3xl text-primary-color font-Montserrat font-semibold">
               {title}
             </h1>
-            <p className="text-[#696969] text-[15px] font-[Poppins] mt-5">
+            <p className="text-gray-600 text-[15px] font-[Poppins] mt-5">
               {description}
             </p>
           </div>
