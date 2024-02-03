@@ -24,7 +24,7 @@ function Projects({ projects, type }) {
 
   return (
     <>
-      <div className="flex flex-wrap justify-center gap-x-6 max-w-5xl mx-auto">
+      <div className="flex flex-wrap justify-center gap-x-6  mx-auto">
         {filteredProjects.map((project, index) => (
           <PortfolioCard
             key={index}

@@ -8,7 +8,7 @@ function ProjectDetails({ icon, text, link }) {
         >
             <span className="text-primary-color ">{icon}</span>
             <span
-                className={`text-white underline-offset-4 ${link && 'underline decoration-primary-color'}`}
+                className={`text-gray-600 underline-offset-4 ${link && 'underline decoration-primary-color'}`}
             >
                 {text}
             </span>

@@ -1,67 +1,21 @@
-import { Input, Textarea } from "../Form";
-import { Button } from "../";
-import { AiOutlineMail } from 'react-icons/ai';
-import { useState } from "react";
 
-function ContactForm({ contactEmail }) {
-    const [name, setName] = useState('');
-    const [email, setEmail] = useState('');
-    const [subject, setSubject] = useState('');
-    const [message, setMessage] = useState('');
 
-    const submitForm = (e) => {
-        e.preventDefault();
-        // send email
-        window.open(
-            `mailto:${contactEmail}?subject=${encodeURIComponent(
-                subject
-            )}&body=${encodeURIComponent(name)} (${encodeURIComponent(
-                email
-            )}): ${encodeURIComponent(message)}`
-        );
-    };
+function ContactForm() {
 
     return (
-        <div className="flex flex-col w-full md:w-[48%] mb-6">
-            <form onSubmit={submitForm}>
-                <div className="flex flex-wrap justify-between">
-                    <Input
-                        required
-                        name="name"
-                        placeholder="Name"
-                        className="w-full md:w-[48%]"
-                        value={name}
-                        onChange={(e) => setName(e.target.value)}
-                    />
-                    <Input
-                        required
-                        name="email"
-                        type="email"
-                        placeholder="Email"
-                        className="w-full md:w-[48%]"
-                        value={email}
-                        onChange={(e) => setEmail(e.target.value)}
-                    />
-                </div>
-                <Input
-                    required
-                    name="subject"
-                    placeholder="Subject"
-                    value={subject}
-                    onChange={(e) => setSubject(e.target.value)}
-                />
-                <Textarea
-                    required
-                    name="message"
-                    placeholder="Message"
-                    value={message}
-                    onChange={(e) => setMessage(e.target.value)}
-                />
-                <Button type="button" className="block w-fit">
-                    Sent Message
-                    <AiOutlineMail />
-                </Button>
-            </form>
+        <div className="  ">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14473.646160549304!2d88.7303040994869!3d24.918046505109345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39fb7f72139dfa7d%3A0x4cfebecf34ff6e40!2sKunjabon!5e0!3m2!1sen!2sbd!4v1706942580593!5m2!1sen!2sbd"
+                width="600"
+                height="350"
+                style={{ border: 0 }}
+                allowFullScreen={false}
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                title="No content"
+            >
+
+            </iframe>
+
         </div>
     )
 }

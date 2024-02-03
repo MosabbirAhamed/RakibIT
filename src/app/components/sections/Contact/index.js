@@ -1,8 +1,10 @@
 import { CONTACT } from "../../../data";
-import { ContactForm, ContactInfo, SectionTitle } from "../../elements";
+import { ContactInfo, SectionTitle } from "../../elements";
+import ContactForm from "../../elements/ContactForm";
+
 
 function Contact() {
-  const { title, subtitle, typeWriter, email } = CONTACT;
+  const { title, subtitle, typeWriter, } = CONTACT;
   return (
     <section name="Contact" className="element">
       <div className="container">
@@ -11,13 +13,13 @@ function Contact() {
           title={title}
           subtitle={subtitle}
           typeWriter={typeWriter}
-          className="!mb-0"
+          center
         />
-        <div className="flex flex-wrap justify-between">
+        <div className="flex flex-wrap items-center justify-between">
           {/* ==== Contact Info ==== */}
           <ContactInfo {...CONTACT} />
           {/* ==== Contact Form ==== */}
-          <ContactForm contactEmail={email} />
+          <ContactForm />
         </div>
       </div>
     </section>

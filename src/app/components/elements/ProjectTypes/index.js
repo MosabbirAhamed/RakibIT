@@ -1,8 +1,8 @@
 
 function ProjectTypes({ types, selected, onChange }) {
     return (
-        <div className="flex flex-wrap justify-center space-x-3 sm:space-x-5 my-10">
-            {types.map((type, index) => (
+        <div className="flex flex-wrap justify-center my-5">
+            {/* {types.map((type, index) => (
                 <button
                     key={index}
                     className={`
@@ -14,7 +14,7 @@ function ProjectTypes({ types, selected, onChange }) {
                 >
                     {type}
                 </button>
-            ))}
+            ))} */}
         </div>
     )
 }

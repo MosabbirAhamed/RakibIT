@@ -1,15 +1,14 @@
-import { Button, Projects, ProjectTypes, SectionTitle } from "../../elements";
+import { ProjectTypes, Projects, SectionTitle } from "../../elements";
 import { PORTFOLIO } from "../../../data";
 import { useState } from "react";
-import { AiFillGithub } from "react-icons/ai";
 
 function Portfolio() {
   const [selectedType, setSelectedType] = useState("All");
-  const { title, subtitle, typeWriter, types, projects, github } = PORTFOLIO;
+  const { title, subtitle, typeWriter, types, projects, } = PORTFOLIO;
 
   return (
     <section name="Portfolio" className="element">
-      <div className="container">
+      <div className="">
         {/* ==== Section Title ==== */}
         <SectionTitle
           center
@@ -18,22 +17,25 @@ function Portfolio() {
           typeWriter={typeWriter}
         />
         {/* ==== Project Types ==== */}
-        <ProjectTypes
-          types={types}
-          onChange={setSelectedType}
-          selected={selectedType}
-        />
-        {/* ==== Projects ==== */}
-        <Projects projects={projects} type={selectedType} />
-        {/* ==== Github ==== */}
-        <Button
-          href={github}
-          className="block w-fit mx-auto mt-5"
-          target="_blank"
-        >
-          Visit my GitHub
-          <AiFillGithub className="ml-1 text-lg" />
-        </Button>
+        <div className="bg-[#e5eaf79b] py-3 ">
+          <div className="container ">
+            <ProjectTypes
+              types={types}
+              onChange={setSelectedType}
+
+              selected={selectedType}
+            />
+            {/* ==== Projects ==== */}
+            <Projects projects={projects} type={selectedType} />
+            {/* ==== Github ==== */}
+            <div className="block w-fit mx-auto my-5">
+              <a href="https://mosabbir-ahamed.netlify.app/" className="px-6 py-2 text-white font-semibold rounded-[5px] cursor-pointer bg-primary-color border border-primary-color hover:text-primary-color
+                              hover:bg-white  transition-all duration-300 ease-in-out ">
+                Our Services
+              </a>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   );

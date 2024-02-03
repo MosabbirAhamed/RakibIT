@@ -2,14 +2,17 @@
 function ContactInfo({ email, phone, location, country, text }) {
     return (
         <div className="flex flex-col w-full md:w-[48%] my-8">
-            <p className="w-5/6 text-[#696969]">{text}</p>
-            <div className="mt-10 text-gray-300">
-                <address className="font-medium block text-2xl md:text-3xl leading-8">
+            <div className=" text-gray-600">
+                <address className="font-medium block text-xl md:text-2xl leading-8">
+                    <span className="">Address: </span>
                     {location}
                     <span className="block">{country}</span>
                 </address>
-                <a href={`tel: ${phone}`} className="mt-5 block font-medium text-2xl md:text-3xl">{phone}</a>
-                <a href={`mailto: ${email}`} className="mt-5 block">{email}</a>
+                <span className="block font-medium text-xl md:text-2xl mt-6 ">Phone: <a href={`tel: ${phone}`} className=" font-medium text-xl md:text-2xl">  {phone}</a></span>
+
+                <span className="block font-medium text-xl md:text-2xl mt-4 ">Email: <a href={`mailto: ${email}`} className="mt-5 font-medium text-xl md:text-2xl">{email}</a></span>
+
+
             </div>
         </div>
     );

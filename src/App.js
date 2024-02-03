@@ -6,7 +6,6 @@ import {
   Resume,
   Portfolio,
   Contact,
-  Blogs,
   Footer,
 } from "./app/components/sections";
 import { HeroBottom } from "./app/components/elements";
@@ -20,7 +19,6 @@ function App() {
       <About />
       <Resume />
       <Portfolio />
-      <Blogs />
       <Contact />
       <Footer />
     </>

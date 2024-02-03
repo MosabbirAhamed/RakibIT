@@ -1,7 +1,7 @@
 export const PORTFOLIO = {
   title: 'Portfolio',
   subtitle: 'My',
-  typeWriter: ['Best Works', 'Latest Projects'],
+  typeWriter: ['Projects'],
   github: 'https://github.com/MosabbirAhamed',
   types: ['All', 'Website'],
   projects: [
@@ -11,7 +11,7 @@ export const PORTFOLIO = {
         'I design Furniture application with ReactJS. This website is lots of functionality. On this website almost all content is dynamic.',
       video: null,
       images: {
-        default: '/Asset/portfolio/furniture-main.jpg',
+        default: '/Asset/portfolio/rakib.png',
         variants: [
           '/Asset/portfolio/furniture-3.jpg',
           '/Asset/portfolio/furniture-2.png',
@@ -29,7 +29,7 @@ export const PORTFOLIO = {
         'This is a movie all where you can watch, download movies',
       video: null,
       images: {
-        default: '/Asset/portfolio/netflix-main.jpg',
+        default: '/Asset/portfolio/rakib.png',
         variants: [
           '/Asset/portfolio/netflix.jpg',
           '/Asset/portfolio/netflix.jpg',
@@ -46,7 +46,7 @@ export const PORTFOLIO = {
         ' I bulid Zomato clone application with React.js. This website is lots of functionality. On this website almost all content is dynamic.',
       video: null,
       images: {
-        default: '/Asset/portfolio/zomato-main.jpg',
+        default: '/Asset/portfolio/rakib.png',
         variants: [
           '/Asset/portfolio/zomato-2.jpg',
           '/Asset/portfolio/zomato-3.jpg',
@@ -63,7 +63,7 @@ export const PORTFOLIO = {
         ' I design RESTAURANT application with Html, Css, JavaScript. On this website almost all content is dynamic.',
       video: null,
       images: {
-        default: '/Asset/portfolio/resturent.jpg',
+        default: '/Asset/portfolio/rakib.png',
         variants: [
           '/Asset/portfolio/resturent-2.jpg',
           '/Asset/portfolio/resturent-2.jpg',
@@ -80,7 +80,7 @@ export const PORTFOLIO = {
         ' I bulid TODO application with Html, Css, JavaScript. This application is lots of functionality.',
       video: null,
       images: {
-        default: '/Asset/portfolio/todo.png',
+        default: '/Asset/portfolio/rakib.png',
         variants: [
           '/Asset/portfolio/todo.png',
           '/Asset/portfolio/todo.png',
@@ -97,7 +97,7 @@ export const PORTFOLIO = {
         ' I bulid Temperature Converter application with Html, Css, JavaScript. This application is lots of functionality.',
       video: null,
       images: {
-        default: '/Asset/portfolio/tempracher.png',
+        default: '/Asset/portfolio/rakib.png',
         variants: [
           '/Asset/portfolio/tempracher.png',
           '/Asset/portfolio/tempracher.png',

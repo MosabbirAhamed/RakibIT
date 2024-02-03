@@ -1,7 +1,7 @@
 import "./style.css";
 import { BsEye } from "react-icons/bs";
 
-function PortfolioCard({ title, images, type, onClick }) {
+function PortfolioCard({ title, images, onClick }) {
   return (
     <div
       className="relative cursor-pointer w-full sm:w-[48%] md:w-[31%] h-60 md:h-64 mb-8 rounded-md overflow-hidden hover:before:opacity-100 hover:opacity-80 hover: transition duration-300 Portfolio__card_overlay"
@@ -18,7 +18,6 @@ function PortfolioCard({ title, images, type, onClick }) {
       />
       <div className="Portfolio__card_overlay_text">
         <p className="text-white text-md font-semibold">{title}</p>
-        <p className="text-gray-300 text-xs">{type}</p>
       </div>
     </div>
   );
