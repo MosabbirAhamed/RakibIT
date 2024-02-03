@@ -36,7 +36,7 @@ function Footer() {
                     })}
                 </div>
                 <span className="block text-sm text-gray-500 sm:text-center dark:text-gray-400">© {new Date().getFullYear()} <a href="/" className="hover:underline" target="_blank" rel="noreferrer">MD Rakib Hossain</a>. All Rights Reserved.
-                    <span className="block text-sm text-gray-500 sm:text-center dark:text-gray-400">Build By <a href="/" className="hover:underline" target="_blank" rel="noreferrer">Mosabbir Ahamed</a>.
+                    <span className="block text-sm text-gray-500 sm:text-center dark:text-gray-400">Build By <a href="https://mosabbir-ahamed.netlify.app/" className="hover:underline" target="_blank" rel="noreferrer">Mosabbir Ahamed</a>.
                     </span>
                 </span>
 
