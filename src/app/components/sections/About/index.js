@@ -1,5 +1,6 @@
 import { ABOUT } from "../../../data";
 import { SectionTitle } from "../../elements";
+import { Link } from 'react-router-dom'
 
 
 function About() {
@@ -33,10 +34,10 @@ function About() {
                 services. So, you can trust us for your needs.
               </h3>
               <div className="  ">
-                <a href="https://mosabbir-ahamed.netlify.app/" className="px-6 py-2 text-white font-semibold rounded-[5px] cursor-pointer bg-primary-color border border-primary-color hover:text-primary-color
+                <Link to="/about" className="px-6 py-2 text-white font-semibold rounded-[5px] cursor-pointer bg-primary-color border border-primary-color hover:text-primary-color
                               hover:bg-white  transition-all duration-300 ease-in-out ">
                   About Us
-                </a>
+                </Link>
               </div>
             </div>
           </div>
