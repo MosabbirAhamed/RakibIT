@@ -6,19 +6,15 @@ export const HEADER = {
   menus: [
     {
       name: "Home",
-      to: "Hero",
+      to: "/",
     },
     {
       name: "About",
-      to: "About",
+      to: "about",
     },
     {
-      name: "Resume",
-      to: "Resume",
-    },
-    {
-      name: "Works",
-      to: "Portfolio",
+      name: "Services",
+      to: "services",
     },
     {
       name: "Contact",

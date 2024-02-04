@@ -1,5 +1,7 @@
 import { HEADER, SOCIAL_ICONS } from "../../../data"
-import { Link, } from "react-scroll";
+import { Link } from 'react-router-dom'
+
+
 
 function Footer() {
 
@@ -22,15 +24,13 @@ function Footer() {
                     {menus.map((link, index) => {
                         return (
                             <Link
-                                activeClass="Footer__active_menu"
+
                                 key={index}
                                 className={`Footer__menu`}
                                 to={link.to}
-                                spy={true}
-                                smooth={true}
-                                duration={500}
+
                             >
-                                {link.name}
+                                <span activeclass="Footer__active_menu"> {link.name}</span>
                             </Link>
                         );
                     })}

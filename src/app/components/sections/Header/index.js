@@ -2,7 +2,8 @@ import { useEffect, useState } from "react";
 import { HEADER } from "../../../data";
 import { AiOutlineMenu } from "react-icons/ai";
 import { AiOutlineClose } from "react-icons/ai";
-import { Link, Events, scrollSpy } from "react-scroll";
+import { Events, scrollSpy } from "react-scroll";
+import { Link } from 'react-router-dom'
 
 function Header() {
   const [opened, setOpened] = useState(false);
@@ -64,13 +65,11 @@ function Header() {
             {menus.map((link, index) => {
               return (
                 <Link
-                  activeClass="NavBar__active_menu"
+                  activeclass="NavBar__active_menu"
                   key={index}
                   className={`NavBar__menu`}
                   to={link.to}
-                  spy={true}
-                  smooth={true}
-                  duration={500}
+
                 >
                   {link.name}
                 </Link>
