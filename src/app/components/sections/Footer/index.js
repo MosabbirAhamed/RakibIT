@@ -8,7 +8,7 @@ function Footer() {
     const { menus } = HEADER
 
     return (
-        <footer className="p-3 bg-white rounded-lg shadow md:px-6 md:py-6 dark:bg-gray-800">
+        <footer className="p-3 rounded-lg shadow md:px-6 md:py-6 dark:bg-gray-800">
             <div className="flex flex-col justify-center gap-7 items-center">
 
 
