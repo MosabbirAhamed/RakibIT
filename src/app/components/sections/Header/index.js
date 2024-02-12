@@ -61,13 +61,13 @@ function Header() {
           className={`${!opened && "hidden"} justify-between items-center w-full md:flex md:w-auto md:order-1`}
           id="mobile-menu-4"
         >
-          <nav className="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-base md:font-medium">
+          <nav className="flex flex-col bg-gray-600 md:bg-white mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-base md:font-medium">
             {menus.map((link, index) => {
               return (
                 <Link
                   activeclass="NavBar__active_menu"
                   key={index}
-                  className={`NavBar__menu`}
+                  className={"NavBar__menu"}
                   to={link.to}
 
                 >

@@ -1,11 +1,12 @@
 import React from 'react'
-import { About, Contact, Hero, } from "../components/sections";
+import { Contact, Hero, } from "../components/sections";
+import AboutDec from '../components/elements/AboutDec';
 
 function AboutPage() {
     return (
         <>
             <Hero />
-            <About />
+            <AboutDec />
             <Contact />
         </>
     )

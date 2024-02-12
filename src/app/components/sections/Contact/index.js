@@ -15,7 +15,7 @@ function Contact() {
           typeWriter={typeWriter}
           center
         />
-        <div className="flex flex-wrap items-center justify-between">
+        <div className="flex flex-wrap items-center justify-around md:justify-between">
           {/* ==== Contact Info ==== */}
           <ContactInfo {...CONTACT} />
           {/* ==== Contact Form ==== */}

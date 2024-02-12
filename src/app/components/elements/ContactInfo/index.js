@@ -1,7 +1,7 @@
 
-function ContactInfo({ email, phone, location, country, text }) {
+function ContactInfo({ email, phone, location, country, }) {
     return (
-        <div className="flex flex-col w-full md:w-[48%] my-8">
+        <div className="flex flex-col text-center md:text-left w-full md:w-[48%] my-8">
             <div className=" text-gray-600">
                 <address className="font-medium block text-xl md:text-2xl leading-8">
                     <span className="">Address: </span>
