@@ -141,7 +141,7 @@ const AboutDec = () => {
                                         >
                                             <AiFillFacebook size={30} />
                                         </a>
-                                        <a href="https://wa.me/01715362067"
+                                        <a href="https://wa.me/8801715362067"
                                             target="_blank"
                                             className='!text-[30px] hover:text-gray-600 text-[#075E54] '
                                             rel="noreferrer"
@@ -173,7 +173,7 @@ const AboutDec = () => {
                                         >
                                             <AiFillFacebook size={30} />
                                         </a>
-                                        <a href="https://wa.me/01754807456"
+                                        <a href="https://wa.me/8801754807456"
                                             target="_blank"
                                             className='!text-[30px] hover:text-gray-600 text-[#075E54] '
                                             rel="noreferrer"

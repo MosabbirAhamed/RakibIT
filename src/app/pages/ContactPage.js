@@ -1,26 +1,12 @@
 import React from 'react'
 import { Contact } from '../components/sections'
+import ContactDet from '../components/sections/ContactDet'
 
 function ContactPage() {
     return (
         <div>
-            <div>ContactPage</div>
-            <div>ContactPage</div>
-            <div>ContactPage</div>
-            <div>ContactPage</div>
-            <div>ContactPage</div>
-            <div>ContactPage</div>
-            <div>ContactPage</div>
-            <div>ContactPage</div>
-            <div>ContactPage</div>
-            <div>ContactPage</div>
-            <div>ContactPage</div>
-            <div>ContactPage</div>
-            <div>ContactPage</div>
-            <div>ContactPage</div>
-            <div>ContactPage</div>
-            <div>ContactPage</div>
-            <div>ContactPage</div>
+
+            <ContactDet />
             <Contact />
 
         </div>

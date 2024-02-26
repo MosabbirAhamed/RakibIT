@@ -6,4 +6,5 @@ export const ABOUT = {
     image: "/Asset/about.png",
     rakib: '/Asset/portfolio/rakibpic.png',
     mosabbir: '/Asset/portfolio/mosabbirpic.png',
+    contact: '/Asset/portfolio/contact1.gif',
 }
