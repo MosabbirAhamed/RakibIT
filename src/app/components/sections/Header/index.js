@@ -5,6 +5,7 @@ import { AiOutlineClose } from "react-icons/ai";
 import { Events, scrollSpy } from "react-scroll";
 import { Link } from 'react-router-dom'
 
+
 function Header() {
   const [opened, setOpened] = useState(false);
   const [navbarSticky, setNavbarSticky] = useState(false);
@@ -30,8 +31,9 @@ function Header() {
 
   return (
     <header
-      className={`z-50 w-full text-white bg-[#ffffff00] fixed top-0  sm:py-4 py-2 px-2  ${navbarSticky && "NavBar__sticky"}`}
+      className={`z-50 w-full  text-white bg-[#ffffff00] fixed top-0  sm:py-4 py-2 px-2  ${navbarSticky && "NavBar__sticky"}`}
     >
+
       <div className="container flex flex-wrap items-center justify-between">
         {/* ==== Logo ==== */}
         <a href="/">
