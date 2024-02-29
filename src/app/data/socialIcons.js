@@ -15,15 +15,15 @@ export const SOCIAL_ICONS = [
     },
     {
         icon: <FaLinkedin size={23} />,
-        href: "https://www.instagram.com/mosabbir_ahamed/"
+        href: "https://www.linkedin.com/in/md-rakib-hossain-a93192293"
     },
     {
         icon: <FaSkype size={24} />,
-        href: "https://twitter.com/ahamed_mosabbir?t=Gi5ai4gBXTFcDjbkMiM_Mw&s=09"
+        href: "https://join.skype.com/invite/rIRB26aEIawi"
     },
     {
         icon: <FaTelegram size={23} />,
-        href: "https://github.com/MosabbirAhamed/"
+        href: "https://t.me/rakibit"
     },
 
     {

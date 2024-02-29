@@ -34,7 +34,7 @@ const ContactDet = () => {
                                     <FaEnvelope size={30} />
                                 </a>
 
-                                <a href="https://wa.me/8801715362067"
+                                <a href="https://join.skype.com/invite/rIRB26aEIawi"
                                     target="_blank"
                                     className='!text-[30px] hover:text-gray-600 text-[#009EDC] '
                                     rel="noreferrer"
@@ -42,7 +42,7 @@ const ContactDet = () => {
                                 >
                                     <BsSkype size={30} />
                                 </a>
-                                <a href="https://www.linkedin.com/in/mosabbir-ahamed/"
+                                <a href="https://t.me/rakibit"
                                     target="_blank"
                                     className=' hover:text-gray-600 text-[#0088cc] '
                                     rel="noreferrer"
@@ -50,7 +50,7 @@ const ContactDet = () => {
                                 >
                                     <FaTelegram size={30} />
                                 </a>
-                                <a href="https://www.facebook.com/mosabbir.ahammed"
+                                <a href="https://www.facebook.com/mdrakibhossain1316"
                                     target="_blank"
                                     className='!text-[30px] hover:text-gray-600 text-[#0865fe] '
                                     rel="noreferrer"

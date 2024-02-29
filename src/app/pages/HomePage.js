@@ -8,8 +8,8 @@ function HomePage() {
             <Hero />
             <HeroBottom />
             <About />
-            <Resume />
-            <Portfolio />
+            <Resume linkName="Our Services" linkType="/services" />
+            <Portfolio linkName="Our Services" linkType="/services" />
             <Contact />
 
         </>

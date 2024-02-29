@@ -4,6 +4,7 @@ import {
   AiTwotoneAppstore,
 } from "react-icons/ai";
 import ServiceDetails from "../ServiceDetails";
+import { Link } from "react-router-dom";
 
 
 const ServiceModal = ({ onClose, popupData }) => {
@@ -49,6 +50,14 @@ const ServiceModal = ({ onClose, popupData }) => {
                 />
               </div>
             ))}
+
+
+          </div>
+          <div className="w-fit mx-auto mt-10">
+            <Link to="/contact" className="px-6 py-2 text-white font-semibold rounded-[5px] cursor-pointer bg-primary-color border border-primary-color hover:text-primary-color
+                              hover:bg-white  transition-all duration-300 ease-in-out ">
+              Contact Us
+            </Link>
           </div>
         </div>
       </div>

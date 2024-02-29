@@ -28,10 +28,15 @@
 
   /* NavBar Menu */
   .NavBar__menu {
-    @apply cursor-pointer block py-2 pr-4 pl-5 md:text-gray-700 font-bold font-thin md:border-0 md:hover:text-primary-color hover:bg-primary-color md:hover:bg-inherit md:p-0 font-Poppins text-base mb-1 md:mb-0 rounded md:rounded-none;
+    @apply cursor-pointer block py-2 pr-4 pl-5 md:text-gray-700  font-thin md:border-0 md:hover:text-primary-color hover:bg-primary-color md:hover:bg-inherit md:p-0 font-Poppins text-base mb-1 md:mb-0 rounded md:rounded-none;
   }
+  .NavBar__active_menu {
+    @apply md:!text-primary-color bg-primary-color md:bg-transparent md:!border-b border-primary-color cursor-pointer block py-2 pr-4 pl-5 font-thin md:p-0 font-Poppins text-base mb-1 md:mb-0 rounded md:rounded-none ;
+  }
+
+
   .Footer__menu {
-    @apply cursor-pointer block py-2 pr-4 pl-5 text-gray-200 font-bold font-thin md:border-0 md:hover:text-primary-color hover:bg-primary-color md:hover:bg-inherit md:p-0 font-Poppins text-base mb-1 md:mb-0 rounded md:rounded-none;
+    @apply cursor-pointer block py-2 pr-4 pl-5 text-gray-200  font-thin md:border-0 md:hover:text-primary-color hover:bg-primary-color md:hover:bg-inherit md:p-0 font-Poppins text-base mb-1 md:mb-0 rounded md:rounded-none;
   }
   /* Navbar Sticky */
   .NavBar__sticky {
@@ -39,12 +44,10 @@
   }
   /* NavBar Active Menu */
   .Footer__active_menu {
-    @apply md:!text-primary-color bg-primary-color md:bg-transparent md:!border-b border-primary-color font-[500];
+    @apply md:!text-primary-color text-gray-200  bg-primary-color md:bg-transparent md:!border-b border-primary-color  cursor-pointer block py-2 pr-4 pl-5 font-thin md:p-0 font-Poppins text-base mb-1 md:mb-0 rounded md:rounded-none;
   }
 
-  .NavBar__active_menu {
-    @apply md:!text-primary-color bg-primary-color md:bg-transparent md:!border-b border-primary-color font-[500];
-  }
+ 
 
   /* Portfolio ~ Active Type */
   .Portfolio__active_type {

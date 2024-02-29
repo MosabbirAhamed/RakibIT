@@ -3,7 +3,7 @@ import { HEADER } from "../../../data";
 import { AiOutlineMenu } from "react-icons/ai";
 import { AiOutlineClose } from "react-icons/ai";
 import { Events, scrollSpy } from "react-scroll";
-import { Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 
 
 function Header() {
@@ -66,15 +66,14 @@ function Header() {
           <nav className="flex flex-col bg-gray-600 md:bg-white mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-base md:font-medium">
             {menus.map((link, index) => {
               return (
-                <Link
-                  activeclass="NavBar__active_menu"
+                <NavLink
                   key={index}
-                  className={"NavBar__menu"}
                   to={link.to}
-
+                  className={({ isActive, isPending }) =>
+                    isPending ? " " : isActive ? "NavBar__active_menu" : "NavBar__menu "}
                 >
                   {link.name}
-                </Link>
+                </NavLink>
               );
             })}
           </nav>

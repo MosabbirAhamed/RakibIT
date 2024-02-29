@@ -1,5 +1,5 @@
 import { HEADER, SOCIAL_ICONS } from "../../../data"
-import { Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 
 
 
@@ -25,15 +25,14 @@ function Footer() {
                 <div className="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-base md:font-medium">
                     {menus.map((link, index) => {
                         return (
-                            <Link
-
+                            <NavLink
                                 key={index}
-                                className={`Footer__menu`}
                                 to={link.to}
-
+                                className={({ isActive, isPending }) =>
+                                    isPending ? " " : isActive ? "Footer__active_menu" : "Footer__menu "}
                             >
-                                <span activeclass="Footer__active_menu"> {link.name}</span>
-                            </Link>
+                                {link.name}
+                            </NavLink>
                         );
                     })}
                 </div>

@@ -127,7 +127,7 @@ const AboutDec = () => {
                                         <p className="text-gray-600">Founder & CEO</p>
                                     </div>
                                     <div className=" flex items-center gap-2 ">
-                                        <a href="https://www.facebook.com/mdrakibhossain1316"
+                                        <a href="https://www.linkedin.com/in/md-rakib-hossain-a93192293"
                                             target="_blank"
                                             className=' hover:text-gray-600 text-[#0e76a8] '
                                             rel="noreferrer"

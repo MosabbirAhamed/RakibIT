@@ -1,11 +1,12 @@
 import React from 'react'
-import { Contact, Hero, Resume, } from "../components/sections";
+import { Contact, Hero, Portfolio, Resume, } from "../components/sections";
 
 function ServicesPage() {
     return (
         <>
             <Hero />
-            <Resume />
+            <Resume linkName="Contact Us" linkType="/contact" />
+            <Portfolio linkName="Contact Us" linkType="/contact" />
             <Contact />
         </>
     )
