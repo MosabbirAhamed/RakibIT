@@ -1,20 +1,14 @@
-import { useCallback, useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { PortfolioCard, PortfolioModal, PopUpWrapper } from "../";
 
-function Projects({ projects, type }) {
-  const [filteredProjects, setFilteredProjects] = useState(projects);
+function Projects({ projects }) {
+
   const [popupData, setPopupData] = useState(null);
   const [open, setOpen] = useState(false);
 
-  const filter = useCallback(() => {
-    // Filter projects by type
-    if (type === "All") return setFilteredProjects(projects);
-    setFilteredProjects(projects.filter((project) => project.type === type));
-  }, [projects, type]);
+
 
   const closeModal = () => setPopupData(null);
-
-  useEffect(() => filter(), [filter]);
 
   useEffect(() => {
     // Open modal based on popupData
@@ -25,7 +19,7 @@ function Projects({ projects, type }) {
   return (
     <>
       <div className="flex flex-wrap justify-center gap-x-6  mx-auto">
-        {filteredProjects.map((project, index) => (
+        {projects.map((project, index) => (
           <PortfolioCard
             key={index}
             {...project}

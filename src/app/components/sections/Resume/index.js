@@ -1,14 +1,12 @@
 import { RESUME } from "../../../data";
 import { SectionTitle } from "../../elements";
-import { useState } from "react";
-import ServiceTypes from "../../elements/ServiceTypes";
+
 import ServicesProjects from "../../elements/ServicesProjects";
 import { Link } from 'react-router-dom'
 
 
 function Resume() {
-  const { title, subtitle, typeWriter, types, projects } = RESUME;
-  const [selectedType, setSelectedType] = useState("All");
+  const { title, subtitle, typeWriter, projects } = RESUME;
 
   return (
     <section name="Resume" className="element">
@@ -21,14 +19,8 @@ function Resume() {
           typeWriter={typeWriter}
         />
         <div className="mt-10">
-          {/* ==== Project Types ==== */}
-          <ServiceTypes
-            types={types}
-            onChange={setSelectedType}
-            selected={selectedType}
-          />
           {/* ==== Projects ==== */}
-          <ServicesProjects projects={projects} type={selectedType} />
+          <ServicesProjects projects={projects} />
           {/* ==== Github ==== */}
           <div className="block w-fit mx-auto mt-10">
             <Link to="/services" className="px-6 py-2 text-white font-semibold rounded-[5px] cursor-pointer bg-primary-color border border-primary-color hover:text-primary-color

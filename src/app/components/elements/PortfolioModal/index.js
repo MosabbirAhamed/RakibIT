@@ -18,7 +18,7 @@ const PortfolioModal = ({ onClose, popupData }) => {
 
   return (
     <>
-      <div className="relative h-full w-full flex justify-center items-center bg-slate-50 flex-col rounded-md p-3">
+      <div className="relative h-full md:w-[900px] w-full flex justify-center items-center bg-slate-50 flex-col rounded-md p-3">
         {/* ==== Close Modal ==== */}
         <button className="absolute right-5 top-5 text-red-500 text-3xl z-10 outline-none" onClick={onClose}>
           <AiOutlineCloseCircle />
@@ -54,7 +54,7 @@ const PortfolioModal = ({ onClose, popupData }) => {
       </div>
       {/* ==== Image Modal === */}
       <PopUpWrapper open={open} onClose={onClosePopup}>
-        <img src={openImage} alt="project" className="w-full object-cover " />
+        <img src={openImage} alt="project" className=" h-full w-full object-cover " />
       </PopUpWrapper>
     </>
   );
