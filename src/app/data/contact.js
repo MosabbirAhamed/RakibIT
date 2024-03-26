@@ -2,8 +2,8 @@ export const CONTACT = {
     title: "Contact Us",
     subtitle: "Our",
     typeWriter: ["Contact"],
-    location: "Naogaon 6540, Rajshahi,",
-    country: "Bangladesh",
+    location: "Mohadebpur 6530, Naogaon, BD",
+    country: "",
     email: "mdrakibhossain1316@gmail.com",
     phone: "+880 1715 362067",
 }

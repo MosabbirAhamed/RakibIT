@@ -1,4 +1,4 @@
-import { FaEnvelope, FaPhoneAlt, FaSkype, FaTelegram, FaWhatsappSquare, FaFacebookSquare, FaLinkedin } from "react-icons/fa";
+import { FaEnvelope, FaPhoneAlt, FaSkype, FaYoutube, FaWhatsappSquare, FaFacebookSquare, FaLinkedin } from "react-icons/fa";
 
 export const SOCIAL_ICONS = [
     {
@@ -11,19 +11,19 @@ export const SOCIAL_ICONS = [
     },
     {
         icon: <FaFacebookSquare size={23} />,
-        href: "https://www.facebook.com/mdrakibhossain1316"
+        href: "https://www.facebook.com/rhitrakib"
     },
     {
         icon: <FaLinkedin size={23} />,
-        href: "https://www.linkedin.com/in/md-rakib-hossain-a93192293"
+        href: "https://www.linkedin.com/company/rh-it-org/"
     },
     {
         icon: <FaSkype size={24} />,
         href: "https://join.skype.com/invite/rIRB26aEIawi"
     },
     {
-        icon: <FaTelegram size={23} />,
-        href: "https://t.me/rakibit"
+        icon: <FaYoutube size={23} />,
+        href: "https://www.youtube.com/@rh-it"
     },
 
     {

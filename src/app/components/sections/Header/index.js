@@ -38,7 +38,7 @@ function Header() {
         {/* ==== Logo ==== */}
         <a href="/">
           {logo.src ? (
-            <img src={logo.src} className="h-10" alt="logo" />
+            <img src={logo.src} className="h-10" loading="lazy" alt="logo" />
           ) : (
             <h3 className="text-3xl font-Poppins font-medium text-white">
               {logo.alt}

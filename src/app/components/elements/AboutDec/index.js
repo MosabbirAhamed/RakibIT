@@ -29,7 +29,7 @@ const AboutDec = () => {
                     <div className="flex  flex-col-reverse md:flex-row justify-between gap-4 md:gap-0 flex-wrap  items-center">
                         <div className="md:w-[48%] w-full font-semibold">
                             <h3 className=" text-18px md:text-[20px] text-gray-600 pb-[30px] ">
-                                <p className="text-[22px] ">Welcome to <span className="text-primary-color ">Rakib IT</span>,</p>
+                                <p className="text-[22px] ">Welcome to <span className="text-primary-color ">RH IT</span>,</p>
                                 Your trusted partner for top-tier IT-related services. I'm MD. Rakib Hossain,the founder of
                                 Rakib IT. I am a dedicated full-time freelancer with a passion for excellence in B2B Lead
                                 Generation, Data Entry, and various other invaluable services. Our expert team excels in IT
@@ -38,7 +38,7 @@ const AboutDec = () => {
 
                         </div>
                         <div className="md:w-[48%] w-full ">
-                            <img className="w-full h-full object-cover " src={image} alt={title} />
+                            <img className="w-full h-full object-cover " loading="lazy" src={image} alt={title} />
                         </div>
 
                     </div>
@@ -49,14 +49,14 @@ const AboutDec = () => {
                 <div className="flex flex-col md:flex-row justify-between gap-4 md:gap-0 flex-wrap items-center pt-[20px] md:pt-[80px] pb-[30px] md:pb-[60px]">
 
                     <div className="md:w-[48%] w-full text-center md:pb-0 pb-6  md:text-left">
-                        <h2 className="md:text-[48px] text-[30px] font-bold text-gray-600 " > Rakib IT: <span className="md:text-[48px] text-[30px] font-bold text-primary-color ">Your</span> </h2>
+                        <h2 className="md:text-[48px] text-[30px] font-bold text-gray-600 " > RH IT: <span className="md:text-[48px] text-[30px] font-bold text-primary-color ">Your</span> </h2>
                         <h2 className="md:text-[48px] text-[30px] font-bold text-primary-color " >Trusted IT Patner</h2>
 
                     </div>
 
                     <div className="md:w-[48%] w-full  font-semibold">
                         <h3 className=" text-18px md:text-[20px] text-gray-600 pb-[30px] ">
-                            <p className="text-[22px] ">At <span className="text-primary-color ">Rakib IT</span>,</p>
+                            <p className="text-[22px] ">At <span className="text-primary-color ">RH IT</span>,</p>
                             We redefine excellence in IT services. With a rock-solid reputation for trustworthiness and a
                             commitment to delivering the best, we are your go-to partner for all things IT. Our dedicated
                             team leverages cutting-edge technology and expertise to provide tailored solutions, including
@@ -104,7 +104,7 @@ const AboutDec = () => {
                                 ensuring the best possible outcomes for our valued clients.
                             </p>
                             <p className="text-[16px] text-gray-700 ">
-                                At Rakib IT, we believe in the power of exceptional service.
+                                At RH IT, we believe in the power of exceptional service.
                                 If you have any questions or need further information, please don't
                                 hesitate to reach out to us. Your success is our priority.
                             </p>
@@ -121,7 +121,7 @@ const AboutDec = () => {
 
                                 {/* ==== Rakib ==== */}
                                 <div className=" md:w-[48%] w-full flex flex-col justify-center items-center gap-3   ">
-                                    <img className="w-[220px] h-[180px]  rounded-[100%] object-fill " src={rakib} alt="MD. Rakib Hossain" />
+                                    <img className="w-[220px] h-[180px]  rounded-[100%] object-fill " src={rakib} alt="MD. Rakib Hossain" loading="lazy" />
                                     <div className="text-center " >
                                         <h3 className='text-[18px] text-primary-color font-semibold  '>MD. Rakib Hossain</h3>
                                         <p className="text-gray-600">Founder & CEO</p>
@@ -153,7 +153,7 @@ const AboutDec = () => {
 
                                 {/* ====   Mosabbir    ==== */}
                                 <div className=" md:w-[48%] w-full flex flex-col justify-center items-center gap-3   ">
-                                    <img className="w-[220px] h-[180px]  rounded-[100%] object-fill " src={mosabbir} alt="Mosabbir Ahamed" />
+                                    <img className="w-[220px] h-[180px]  rounded-[100%] object-fill " src={mosabbir} alt="Mosabbir Ahamed" loading="lazy" />
                                     <div className="text-center " >
                                         <h3 className='text-[18px] text-primary-color font-semibold  '>Mosabbir Ahamed</h3>
                                         <p className="text-gray-600">Co-Founder & Web Developer</p>

@@ -130,7 +130,7 @@ export const RESUME = {
         {
             title: 'All Kinds of Data Entry',
             description:
-                'Leverage our expertise in web research to gather valuable insights for your business. Our skilled team is adept at conducting thorough and precise web research, providing you with the information needed to make informed decisions. Trust us to navigate the vast online landscape and deliver comprehensive results tailored to your specific requirements.',
+                'Experience the convenience of comprehensive data entry services with our expert team. We specialize in handling all types of data entry tasks, providing accuracy and efficiency across various categories. Trust us to manage your diverse data entry needs, delivering reliable and high-quality results that cater to every aspect of your business.',
 
             images: '/Asset/services/services5.png',
 

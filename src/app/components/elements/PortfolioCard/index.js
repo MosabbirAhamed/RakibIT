@@ -11,7 +11,7 @@ function PortfolioCard({ title, images, onClick }) {
         <BsEye />
       </span>
       <img
-        src={images.default}
+        src={images}
         alt={title}
         className="object-cover h-full w-full"
         loading="lazy"

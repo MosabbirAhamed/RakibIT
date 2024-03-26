@@ -23,11 +23,11 @@ function About() {
           {/* ==== Services ==== */}
           <div className="flex flex-col md:flex-row justify-between gap-4 md:gap-0 flex-wrap items-center">
             <div className="md:w-[48%] w-full ">
-              <img className="w-full h-full object-cover " src={image} alt={title} />
+              <img className="w-full h-full object-cover   " loading="lazy" src={image} alt={title} />
             </div>
             <div className="md:w-[48%] w-full font-semibold">
               <h3 className=" text-18px md:text-[20px] text-gray-600 pb-[30px] ">
-                <p className="text-[22px] ">Welcome to <span className="text-primary-color ">Rakib IT</span>,</p>
+                <p className="text-[22px] ">Welcome to <span className="text-primary-color ">RH IT</span>,</p>
                 Your trusted partner for top-tier IT-related services. I'm MD. Rakib Hossain,the founder of
                 Rakib IT. I am a dedicated full-time freelancer with a passion for excellence in B2B Lead
                 Generation, Data Entry, and various other invaluable services. Our expert team excels in IT

@@ -1,7 +1,7 @@
 export const HEADER = {
   logo: {
     src: '/Asset/rakib/logo.png',
-    alt: "Rakib IT",
+    alt: "RH IT",
   },
   menus: [
     {
